@@ -1,0 +1,14 @@
+name: crystal_server
+version: 0.1.0
+
+targets:
+  crystal_server:
+    main: src/crystal_server.cr
+
+crystal: '>= 1.19.1'
+
+license: MIT
+
+dependencies:
+  mysql:
+    github: crystal-lang/crystal-mysql
